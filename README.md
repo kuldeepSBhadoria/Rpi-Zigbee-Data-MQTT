@@ -1,6 +1,7 @@
 # Rpi-Zigbee-Data-MQTT
 
 Read IR-9ZBS-SL data from Rpi Reference:-(http://static6.arrow.com/aropdfconversion/2c514557bac4d53fb3bfe80acc2458767af5a56/2895789965914218ug129-zigbee-gateway-ref-design-guide.pdf)
+
 Some commands to form a zignee netwrok:-
 (This is auto start app in RPi /opt/siliconlabs/zigbeegateway/bin/siliconlabsgateway -n 0 -p /dev/ttyACM0)
 #plugin network-creator start 1
