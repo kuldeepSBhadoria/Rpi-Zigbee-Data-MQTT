@@ -27,3 +27,6 @@ root@raspberrypi:/home/pi#  mosquitto_sub -h 192.168.42.1 -t gw/000B57FFFE0BCA7E
 root@raspberrypi:/home/pi#  mosquitto_sub -h 192.168.42.1 -t gw/000B57FFFE0BCA7E/settings &
 
 root@raspberrypi:/home/pi#  mosquitto_sub -h 192.168.42.1 -t gw/000B57FFFE0BCA7E/devices &
+
+
+To read data in Azure Iot Hub CLi: - az iot hub monitor-events --hub-name YourIoTHubName --device-id 
