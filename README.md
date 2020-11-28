@@ -20,3 +20,10 @@ Whenever motion detected you will get this in subscriber
 {"clusterId":"0x0500","commandId":"0x00","commandData":"0x050000010000","clusterSpecific":true,"deviceEndpoint":{"eui64":"0x00124B00168F5E80","endpoint":1}}
 
 commandData : 05 means motion detected
+ Subscribe to these topics
+ 
+root@raspberrypi:/home/pi#  mosquitto_sub -h 192.168.42.1 -t gw/000B57FFFE0BCA7E/zclresponse &
+
+root@raspberrypi:/home/pi#  mosquitto_sub -h 192.168.42.1 -t gw/000B57FFFE0BCA7E/settings &
+
+root@raspberrypi:/home/pi#  mosquitto_sub -h 192.168.42.1 -t gw/000B57FFFE0BCA7E/devices &
